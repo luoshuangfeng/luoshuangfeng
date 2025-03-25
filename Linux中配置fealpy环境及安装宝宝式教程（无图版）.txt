@@ -19,8 +19,8 @@ rm -rf ~/miniconda3/miniconda.sh
 STEP-2：创建conda的fealpy环境
 conda create -n [环境名字] python=3.12     “[环境名字]”这个修改为你喜欢的环境名字，我的是myenv，不需要中括号
 
-注有些同学可能会在这一步失败，因为找不到conda，这里我推荐进入miniconda的bin文件夹当中，可以采用在终端中输入
-cd ~/miniconda/bin    进入该文件夹路径
+注有些同学可能会在这一步失败，因为找不到conda，这里我推荐进入miniconda3的bin文件夹当中，可以采用在终端中输入
+cd ~/miniconda3/bin    进入该文件夹路径
 进入后终端输入
 ./conda create -n [环境名字] python=3.12     注意这里./不能忘记，不然还是找不到
 
